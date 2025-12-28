@@ -1,0 +1,92 @@
+[
+ {
+  "InstFile" : "D:/Project/cursor_workspace/FPGA_logicanalysis/logic_analyzer/src/top.v",
+  "InstLine" : 4,
+  "InstName" : "top",
+  "ModuleFile" : "D:/Project/cursor_workspace/FPGA_logicanalysis/logic_analyzer/src/top.v",
+  "ModuleLine" : 4,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Project/cursor_workspace/FPGA_logicanalysis/logic_analyzer/src/top.v",
+    "InstLine" : 70,
+    "InstName" : "u_sample_rate_divider",
+    "ModuleFile" : "D:/Project/cursor_workspace/FPGA_logicanalysis/logic_analyzer/src/sample_rate_divider.v",
+    "ModuleLine" : 7,
+    "ModuleName" : "sample_rate_divider"
+   },
+   {
+    "InstFile" : "D:/Project/cursor_workspace/FPGA_logicanalysis/logic_analyzer/src/top.v",
+    "InstLine" : 95,
+    "InstName" : "u_sampler",
+    "ModuleFile" : "D:/Project/cursor_workspace/FPGA_logicanalysis/logic_analyzer/src/sampler.v",
+    "ModuleLine" : 4,
+    "ModuleName" : "sampler"
+   },
+   {
+    "InstFile" : "D:/Project/cursor_workspace/FPGA_logicanalysis/logic_analyzer/src/top.v",
+    "InstLine" : 116,
+    "InstName" : "u_trigger",
+    "ModuleFile" : "D:/Project/cursor_workspace/FPGA_logicanalysis/logic_analyzer/src/trigger.v",
+    "ModuleLine" : 4,
+    "ModuleName" : "trigger"
+   },
+   {
+    "InstFile" : "D:/Project/cursor_workspace/FPGA_logicanalysis/logic_analyzer/src/top.v",
+    "InstLine" : 132,
+    "InstName" : "u_buffer",
+    "ModuleFile" : "D:/Project/cursor_workspace/FPGA_logicanalysis/logic_analyzer/src/bram_buffer.v",
+    "ModuleLine" : 5,
+    "ModuleName" : "bram_buffer"
+   },
+   {
+    "InstFile" : "D:/Project/cursor_workspace/FPGA_logicanalysis/logic_analyzer/src/top.v",
+    "InstLine" : 148,
+    "InstName" : "u_uart_rx",
+    "ModuleFile" : "D:/Project/cursor_workspace/FPGA_logicanalysis/logic_analyzer/src/uart_rx.v",
+    "ModuleLine" : 5,
+    "ModuleName" : "uart_rx"
+   },
+   {
+    "InstFile" : "D:/Project/cursor_workspace/FPGA_logicanalysis/logic_analyzer/src/top.v",
+    "InstLine" : 157,
+    "InstName" : "u_startup_tx",
+    "ModuleFile" : "D:/Project/cursor_workspace/FPGA_logicanalysis/logic_analyzer/src/startup_tx.v",
+    "ModuleLine" : 4,
+    "ModuleName" : "startup_tx"
+   },
+   {
+    "InstFile" : "D:/Project/cursor_workspace/FPGA_logicanalysis/logic_analyzer/src/top.v",
+    "InstLine" : 178,
+    "InstName" : "u_uart_tx",
+    "ModuleFile" : "D:/Project/cursor_workspace/FPGA_logicanalysis/logic_analyzer/src/uart_tx.v",
+    "ModuleLine" : 5,
+    "ModuleName" : "uart_tx"
+   },
+   {
+    "InstFile" : "D:/Project/cursor_workspace/FPGA_logicanalysis/logic_analyzer/src/top.v",
+    "InstLine" : 188,
+    "InstName" : "u_uart_tx_ext",
+    "ModuleFile" : "D:/Project/cursor_workspace/FPGA_logicanalysis/logic_analyzer/src/uart_tx.v",
+    "ModuleLine" : 5,
+    "ModuleName" : "uart_tx"
+   },
+   {
+    "InstFile" : "D:/Project/cursor_workspace/FPGA_logicanalysis/logic_analyzer/src/top.v",
+    "InstLine" : 202,
+    "InstName" : "u_controller",
+    "ModuleFile" : "D:/Project/cursor_workspace/FPGA_logicanalysis/logic_analyzer/src/controller.v",
+    "ModuleLine" : 4,
+    "ModuleName" : "controller"
+   },
+   {
+    "InstFile" : "D:/Project/cursor_workspace/FPGA_logicanalysis/logic_analyzer/src/top.v",
+    "InstLine" : 232,
+    "InstName" : "u_freq_gen",
+    "ModuleFile" : "D:/Project/cursor_workspace/FPGA_logicanalysis/logic_analyzer/src/freq_gen.v",
+    "ModuleLine" : 5,
+    "ModuleName" : "freq_gen"
+   }
+  ]
+ }
+]

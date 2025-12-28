@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" Register="2" Lut="15" T_Register="465(2)" T_Alu="138(0)" T_Lut="895(15)" T_Bsram="24(0)">
+ <SubModule name="u_sample_rate_divider" Register="65" Lut="196" T_Register="65(65)" T_Lut="196(196)"/>
+ <SubModule name="u_sampler" Register="8" T_Register="8(8)"/>
+ <SubModule name="u_buffer" Register="43" Lut="120" Bsram="24" T_Register="43(43)" T_Lut="120(120)" T_Bsram="24(24)"/>
+ <SubModule name="u_uart_rx" Register="31" Lut="41" T_Register="31(31)" T_Lut="41(41)"/>
+ <SubModule name="u_startup_tx" Register="23" Lut="42" T_Register="23(23)" T_Lut="42(42)"/>
+ <SubModule name="u_uart_tx" Register="24" Lut="36" T_Register="24(24)" T_Lut="36(36)"/>
+ <SubModule name="u_uart_tx_ext" Register="23" Lut="32" T_Register="23(23)" T_Lut="32(32)"/>
+ <SubModule name="u_controller" Register="150" Alu="15" Lut="118" T_Register="150(150)" T_Alu="15(15)" T_Lut="118(118)"/>
+ <SubModule name="u_freq_gen" Register="96" Alu="123" Lut="295" T_Register="96(96)" T_Alu="123(123)" T_Lut="295(295)"/>
+</Module>

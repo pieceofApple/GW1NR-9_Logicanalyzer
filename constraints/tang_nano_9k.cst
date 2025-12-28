@@ -1,0 +1,47 @@
+//Copyright (C)2014-2025 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//Tool Version: V1.9.11.03 Education
+//Part Number: GW1NR-LV9QN88PC6/I5
+//Device: GW1NR-9
+//Device Version: C
+//Created Time: Sat 12 27 04:44:20 2025
+
+IO_LOC "freq_out" 84;
+IO_PORT "freq_out" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "led_state[2]" 13;
+IO_PORT "led_state[2]" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "led_state[1]" 11;
+IO_PORT "led_state[1]" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "led_state[0]" 10;
+IO_PORT "led_state[0]" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "uart_tx_ext" 33;
+IO_PORT "uart_tx_ext" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "uart_tx" 17;
+IO_PORT "uart_tx" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "uart_rx" 18;
+IO_PORT "uart_rx" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "la_data_in[7]" 32;
+IO_PORT "la_data_in[7]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "la_data_in[6]" 31;
+IO_PORT "la_data_in[6]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "la_data_in[5]" 30;
+IO_PORT "la_data_in[5]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "la_data_in[4]" 29;
+IO_PORT "la_data_in[4]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "la_data_in[3]" 28;
+IO_PORT "la_data_in[3]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "la_data_in[2]" 27;
+IO_PORT "la_data_in[2]" IO_TYPE=LVCMOS33 BANK_VCCIO=3.3;
+IO_LOC "la_data_in[1]" 26;
+IO_PORT "la_data_in[1]" IO_TYPE=LVCMOS33 BANK_VCCIO=3.3;
+IO_LOC "la_data_in[0]" 25;
+IO_PORT "la_data_in[0]" IO_TYPE=LVCMOS33 BANK_VCCIO=3.3;
+IO_LOC "resetn" 4;
+IO_PORT "resetn" IO_TYPE=LVCMOS18 PULL_MODE=UP BANK_VCCIO=1.8;
+IO_LOC "clk" 52;
+IO_PORT "clk" IO_TYPE=LVCMOS18 PULL_MODE=UP BANK_VCCIO=1.8;
+// 时钟约束：27MHz系统时钟
+// 注意：Gowin IDE会自动识别时钟，此注释用于文档说明
+IO_LOC "uart_rx_ext" 34;
+IO_PORT "uart_rx_ext" IO_TYPE=LVCMOS33 DRIVE=8 BANK_VCCIO=3.3;
