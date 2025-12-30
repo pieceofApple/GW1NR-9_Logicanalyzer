@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1NR-9C" package="QFN88P" speed="6" partNumber="GW1NR-LV9QN88PC6/I5"/>
+    <FileList>
+        <File path="D:\Project\cursor_workspace\FPGA_logicanalysis\logic_analyzer\src\bram_buffer.v" type="verilog"/>
+        <File path="D:\Project\cursor_workspace\FPGA_logicanalysis\logic_analyzer\src\controller.v" type="verilog"/>
+        <File path="D:\Project\cursor_workspace\FPGA_logicanalysis\logic_analyzer\src\freq_gen.v" type="verilog"/>
+        <File path="D:\Project\cursor_workspace\FPGA_logicanalysis\logic_analyzer\src\sample_rate_divider.v" type="verilog"/>
+        <File path="D:\Project\cursor_workspace\FPGA_logicanalysis\logic_analyzer\src\sampler.v" type="verilog"/>
+        <File path="D:\Project\cursor_workspace\FPGA_logicanalysis\logic_analyzer\src\startup_tx.v" type="verilog"/>
+        <File path="D:\Project\cursor_workspace\FPGA_logicanalysis\logic_analyzer\src\top.v" type="verilog"/>
+        <File path="D:\Project\cursor_workspace\FPGA_logicanalysis\logic_analyzer\src\trigger.v" type="verilog"/>
+        <File path="D:\Project\cursor_workspace\FPGA_logicanalysis\logic_analyzer\src\uart_rx.v" type="verilog"/>
+        <File path="D:\Project\cursor_workspace\FPGA_logicanalysis\logic_analyzer\src\uart_tx.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="global_freq" value="50.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="D:\Project\cursor_workspace\FPGA_logicanalysis\logic_analyzer\impl\gwsynthesis\fpga_logicanalysis.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="vcc" value="1.2"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

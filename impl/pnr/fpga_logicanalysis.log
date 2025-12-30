@@ -1,0 +1,30 @@
+Reading netlist file: "D:\Project\cursor_workspace\FPGA_logicanalysis\logic_analyzer\impl\gwsynthesis\fpga_logicanalysis.vg"
+Parsing netlist file "D:\Project\cursor_workspace\FPGA_logicanalysis\logic_analyzer\impl\gwsynthesis\fpga_logicanalysis.vg" completed
+Processing netlist completed
+Reading constraint file: "D:\Project\cursor_workspace\FPGA_logicanalysis\logic_analyzer\constraints\tang_nano_9k.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+WARN  (TA1132) :  'clk' was determined to be a clock but was not created.
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "D:\Project\cursor_workspace\FPGA_logicanalysis\logic_analyzer\impl\pnr\fpga_logicanalysis.power.html" completed
+Generate file "D:\Project\cursor_workspace\FPGA_logicanalysis\logic_analyzer\impl\pnr\fpga_logicanalysis.pin.html" completed
+Generate file "D:\Project\cursor_workspace\FPGA_logicanalysis\logic_analyzer\impl\pnr\fpga_logicanalysis.rpt.html" completed
+Generate file "D:\Project\cursor_workspace\FPGA_logicanalysis\logic_analyzer\impl\pnr\fpga_logicanalysis.rpt.txt" completed
+Generate file "D:\Project\cursor_workspace\FPGA_logicanalysis\logic_analyzer\impl\pnr\fpga_logicanalysis.tr.html" completed
+Sat Dec 27 23:37:30 2025
+
